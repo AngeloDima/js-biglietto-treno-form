@@ -14,11 +14,16 @@ Button.addEventListener('click',
     console.log(Fasciaetà)
 
 
+    let NomeCognome = (document.getElementById('InfoPass').value)
+    document.getElementById("NOME-PASSEGGERO").innerHTML=NomeCognome;
+
+
+
             //  Chilometri costo KM
     let CostoBase = Chilometri * 0.21
     console.log (CostoBase)
 
-    
+
                 //  Fascia età calcolo
     if (Fasciaetà < 18) {
       let ScontoMin = CostoBase * 0.8;
