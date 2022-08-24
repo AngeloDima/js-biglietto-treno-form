@@ -16,15 +16,43 @@
     display: flex;
 }
 
+.flexC{
+    display: flex;
+    flex-direction: column;
+}
+
 .Center-F{
     justify-content: center;
     gap: 90px;
 }
 
+
+.Arround{
+    justify-content: space-around;
+}
+
+.ai-lati{
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
 .MT-size{
     margin-top: 35px;
     font-size: 1.2rem;
     color: rgb(185 20 80);
+}
+
+
+.padding{
+    padding-top: 35px;
 }
 
 /* Struttura */
@@ -82,3 +110,53 @@
     text-align: center;
     align-self: baseline;
 }
+
+
+
+
+/* -------------------- */
+
+
+.dettagli{
+    margin-left: 3%;
+    margin-top: 20px;
+    font-size: 1.8rem;
+}
+
+
+.TAB{
+    background-color: rgb(114, 114, 114);
+    border-top: 1px solid black ;
+    border-bottom: 1px solid black ;
+
+    width: 95%;
+    height: 70%;
+    margin: auto;
+}
+
+
+.SX{
+    width: 30%;
+    height: 100%;
+
+    justify-content: center; 
+}
+
+.DX-up{
+    width: 70%;
+    height: 100%;
+    background-color: white;
+    
+}
+
+.DX-down{
+    width: 100%;
+    background-color: white;
+
+}
+
+
+
+
+
+
